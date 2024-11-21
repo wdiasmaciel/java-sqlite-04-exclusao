@@ -107,13 +107,10 @@ public class Main {
     }
 }
 ```
-5) Estrutura de diretório:
-![Alt: EstruturaDeDiretório.](EstruturaDeDiretório.png)
-
-6) No `Codespace`, instalar a extensão (_plugin_) VS Code `Extension Pack for Java`:
+5) No `Codespace`, instalar a extensão (_plugin_) VS Code `Extension Pack for Java`:
 ![alt text](ExtensionPackForJava.png)
 
-7) Criar o arquivo `pom.xml` com o conteúdo abaixo para projetos que usam `Maven` no diretório raiz do projeto:
+6) Criar o arquivo `pom.xml` com o conteúdo abaixo para projetos que usam `Maven` no diretório raiz do projeto:
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -166,7 +163,10 @@ public class Main {
 </project>
 ```
  
- 8) Instalar todas as dependências do projeto `Maven` listadas no arquivo `pom.xml`:
+7) Estrutura de diretório:
+![Alt: EstruturaDeDiretório.](EstruturaDeDiretório.png)
+
+8) Instalar todas as dependências do projeto `Maven` listadas no arquivo `pom.xml`:
 ```
   mvn clean install
 ```
