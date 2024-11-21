@@ -107,11 +107,13 @@ public class Main {
     }
 }
 ```
+5) Estrutura de diretório:
+![Alt: EstruturaDeDiretório.](EstruturaDeDiretório.png)
 
-5) No `Codespace`, instalar a extensão (_plugin_) VS Code `Extension Pack for Java`:
+6) No `Codespace`, instalar a extensão (_plugin_) VS Code `Extension Pack for Java`:
 ![alt text](ExtensionPackForJava.png)
 
-6) Criar o arquivo `pom.xml` com o conteúdo abaixo para projetos que usam `Maven` no diretório raiz do projeto:
+7) Criar o arquivo `pom.xml` com o conteúdo abaixo para projetos que usam `Maven` no diretório raiz do projeto:
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -164,29 +166,29 @@ public class Main {
 </project>
 ```
  
- 7) Instalar todas as dependências do projeto `Maven` listadas no arquivo `pom.xml`:
+ 8) Instalar todas as dependências do projeto `Maven` listadas no arquivo `pom.xml`:
 ```
   mvn clean install
 ```
 
- 8) Compilar o projeto:
+ 9) Compilar o projeto:
  ```
   mvn clean compile
  ```
 
- 9) Executar o projeto:
+ 10) Executar o projeto:
  ```
   mvn exec:java -Dexec.mainClass="Main"
  ```
  
- 10) Saída:
+ 11) Saída:
  
  ![Alt: saída do programa](SaidaDoPrograma.png)
 
- 11) Clicar no arquivo `teste.db`. No painel lateral direito, clicar na tabela `usuario`. Observar os registros inseridos na tabela:
+ 12) Clicar no arquivo `teste.db`. No painel lateral direito, clicar na tabela `usuario`. Observar os registros inseridos na tabela:
 ![Alt: registros da tabela usuário.](TabelaUsuario.png)
 
-12) Executar:
+13) Executar:
 ```
   git add .
 ```
